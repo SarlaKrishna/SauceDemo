@@ -5,13 +5,12 @@
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
-    <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
       <class name="testCases.TC001_Product_LoginCart_Test">
         <methods>
+          <include name="verify_Login_ProductCart"/>
           <include name="tearDown"/>
-          <include name="verify_login"/>
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TC001_Product_LoginCart_Test -->

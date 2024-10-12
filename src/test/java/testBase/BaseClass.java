@@ -25,8 +25,8 @@ public static WebDriver driver;
 public Properties p;
 	
 	@BeforeClass(groups= {"Master"})
-	@Parameters({"os","browser"})
-	public void setup(String os, String br) throws IOException
+	@Parameters({"browser"})
+	public void setup(String br) throws IOException
 	{
 		//Loading config.properties file
 		FileReader file=new FileReader("./src//test//resources//config.properties");
