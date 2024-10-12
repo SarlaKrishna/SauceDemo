@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-13T00:43:27 IST" name="Master Suite" finished-at="2024-10-13T00:43:35 IST" duration-ms="8543">
+  <suite started-at="2024-10-13T00:54:06 IST" name="Master Suite" finished-at="2024-10-13T00:54:15 IST" duration-ms="9620">
     <groups>
       <group name="Master">
         <method signature="TC001_Product_LoginCart_Test.verify_Login_ProductCart()[pri:0, instance:testCases.TC001_Product_LoginCart_Test@36bc55de]" name="verify_Login_ProductCart" class="testCases.TC001_Product_LoginCart_Test"/>
         <method signature="TC002_ApiTest.verifyGetRequestStatusCode()[pri:0, instance:testCases.TC002_ApiTest@74fe5c40]" name="verifyGetRequestStatusCode" class="testCases.TC002_ApiTest"/>
       </group> <!-- Master -->
     </groups>
-    <test started-at="2024-10-13T00:43:27 IST" name="Test" finished-at="2024-10-13T00:43:35 IST" duration-ms="8543">
+    <test started-at="2024-10-13T00:54:06 IST" name="Test" finished-at="2024-10-13T00:54:15 IST" duration-ms="9620">
       <class name="testCases.TC001_Product_LoginCart_Test">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC001_Product_LoginCart_Test@36bc55de]" started-at="2024-10-13T00:43:27 IST" name="setup" finished-at="2024-10-13T00:43:29 IST" duration-ms="2355" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC001_Product_LoginCart_Test@36bc55de]" started-at="2024-10-13T00:54:06 IST" name="setup" finished-at="2024-10-13T00:54:09 IST" duration-ms="3322" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,17 +22,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_Login_ProductCart()[pri:0, instance:testCases.TC001_Product_LoginCart_Test@36bc55de]" started-at="2024-10-13T00:43:29 IST" name="verify_Login_ProductCart" finished-at="2024-10-13T00:43:35 IST" duration-ms="5175" status="PASS">
+        <test-method signature="verify_Login_ProductCart()[pri:0, instance:testCases.TC001_Product_LoginCart_Test@36bc55de]" started-at="2024-10-13T00:54:09 IST" name="verify_Login_ProductCart" finished-at="2024-10-13T00:54:15 IST" duration-ms="5199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Login_ProductCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_Product_LoginCart_Test@36bc55de]" started-at="2024-10-13T00:43:35 IST" name="tearDown" finished-at="2024-10-13T00:43:35 IST" duration-ms="253" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_Product_LoginCart_Test@36bc55de]" started-at="2024-10-13T00:54:15 IST" name="tearDown" finished-at="2024-10-13T00:54:15 IST" duration-ms="262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC001_Product_LoginCart_Test -->
       <class name="testCases.TC002_ApiTest">
-        <test-method signature="verifyGetRequestStatusCode()[pri:0, instance:testCases.TC002_ApiTest@74fe5c40]" started-at="2024-10-13T00:43:35 IST" name="verifyGetRequestStatusCode" finished-at="2024-10-13T00:43:35 IST" duration-ms="350" status="PASS">
+        <test-method signature="verifyGetRequestStatusCode()[pri:0, instance:testCases.TC002_ApiTest@74fe5c40]" started-at="2024-10-13T00:54:15 IST" name="verifyGetRequestStatusCode" finished-at="2024-10-13T00:54:15 IST" duration-ms="367" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGetRequestStatusCode -->
