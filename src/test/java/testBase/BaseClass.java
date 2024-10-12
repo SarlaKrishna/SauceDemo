@@ -32,10 +32,8 @@ public Properties p;
 		FileReader file=new FileReader("./src//test//resources//config.properties");
 		p=new Properties();
 		p.load(file);
-				
-				
-		if(p.getProperty("execution_env").equalsIgnoreCase("local"))
-		{
+						
+
 			switch(br.toLowerCase())
 			{
 			case "chrome" : driver=new ChromeDriver(); break;
@@ -43,7 +41,6 @@ public Properties p;
 			case "firefox": driver=new FirefoxDriver(); break;
 			default : System.out.println("Invalid browser name.."); return;
 			}
-		}
 		
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

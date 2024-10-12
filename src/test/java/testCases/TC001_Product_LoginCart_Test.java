@@ -19,7 +19,7 @@ public class TC001_Product_LoginCart_Test extends BaseClass{
 		{
 
 		LoginPage lp=new LoginPage(driver);	//Navigate to the site Saucedemo.com
-		lp.setEmail(p.getProperty("email")); //Login to the site
+		lp.setEmail(p.getProperty("username")); //Login to the site
 		lp.setPassword(p.getProperty("password"));
 		lp.clickLogin();
 		Thread.sleep(2000);
