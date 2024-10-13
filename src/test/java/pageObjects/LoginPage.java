@@ -19,36 +19,8 @@ public class LoginPage extends BasePage {
 	@FindBy(xpath = "//input[@id='login-button']")
 	WebElement btnLogin;
 
-	@FindBy(xpath = "//span[text()='Products']")
-	WebElement msgHeading;
-		
-	@FindBy(xpath = "//a[@id='item_4_title_link']")
-	WebElement firstProductName;
-	
-	@FindBy(xpath = "//div[@class='inventory_item_price']")
-	WebElement firstProductPrice;
-	
-	@FindBy(xpath = "//button[@id='add-to-cart-sauce-labs-backpack']")
-	WebElement clkAddToCartButton;
-	
-	@FindBy(xpath = "//div[@class='shopping_cart_container']")
-	WebElement clkCartIcon;
-	
-	@FindBy(xpath = "//a[@id='item_4_title_link']")
-	WebElement cartProductName;
-	
-	@FindBy(xpath = "//div[@class='inventory_item_price']")
-	WebElement cartProductPrice;
-	
-	@FindBy(xpath = "//button[@id='react-burger-menu-btn']")
-	WebElement clkMenu;
-	
-	@FindBy(xpath = "//a[@id='logout_sidebar_link']")
-	WebElement clkLogout;
-	
-
-	public void setEmail(String email) {
-		txtEmailAddress.sendKeys(email);
+	public void setUsername(String user) {
+		txtEmailAddress.sendKeys(user);
 	}
 
 	public void setPassword(String pwd) {
@@ -58,50 +30,5 @@ public class LoginPage extends BasePage {
 	public void clickLogin() {
 		btnLogin.click();
 	}
-	
-	public boolean isMyAccountPageExists()
-	{
-		try
-		{
-			return (msgHeading.isDisplayed());
-		}
-		catch(Exception e)
-		{
-			return false;
-		}
-	}
-		
-	public String captureFirstProductName() {
-		return firstProductName.getText();
-	}
-	
-	public String captureFirstProductPrice() {
-		return firstProductPrice.getText();
-	}
-	
-	public void clickAddToCartButton() {
-		clkAddToCartButton.click();
-	}
-	
-	public void clickOnCartIcon() {
-		clkCartIcon.click();
-	}
-	
-	public String cartProdName() {
-		return cartProductName.getText();
-	}
-	
-	public String cartProdPrice() {
-		return cartProductPrice.getText();
-	}
-	
-	public void clickOnMenu() {
-		clkMenu.click();
-	}
-	
-	public void clickLogout() {
-		clkLogout.click();
-	}
-	
 	
 }
